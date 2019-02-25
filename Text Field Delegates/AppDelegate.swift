@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  Text Field Delegates
 //
-//  Created by Dmitri Gaisan on 2/24/19.
-//  Copyright © 2019 Dmitri Gaisan. All rights reserved.
-//
 
 import UIKit
 
