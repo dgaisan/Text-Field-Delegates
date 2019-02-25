@@ -2,9 +2,7 @@
 //  TwoDecimals.swift
 //  Text Field Delegates
 //
-//  Created by Dmitri Gaisan on 2/24/19.
-//  Copyright © 2019 Dmitri Gaisan. All rights reserved.
-//
+// UITextFieldDelegate delegate that adds dollar sign and two decimals to entered monetary value
 
 import UIKit
 
