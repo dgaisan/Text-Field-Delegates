@@ -12,6 +12,8 @@
 		A57FFF0122227E9700E52855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57FFEFF22227E9700E52855 /* Main.storyboard */; };
 		A57FFF0322227E9800E52855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57FFF0222227E9800E52855 /* Assets.xcassets */; };
 		A57FFF0622227E9800E52855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57FFF0422227E9800E52855 /* LaunchScreen.storyboard */; };
+		A57FFF0F22227F1D00E52855 /* FiveCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57FFF0E22227F1D00E52855 /* FiveCharacters.swift */; };
+		A57FFF1122228F2300E52855 /* TwoDecimals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57FFF1022228F2300E52855 /* TwoDecimals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A57FFF0222227E9800E52855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57FFF0522227E9800E52855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A57FFF0722227E9800E52855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57FFF0E22227F1D00E52855 /* FiveCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveCharacters.swift; sourceTree = "<group>"; };
+		A57FFF1022228F2300E52855 /* TwoDecimals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDecimals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		A57FFEFA22227E9700E52855 /* Text Field Delegates */ = {
 			isa = PBXGroup;
 			children = (
+				A57FFF0D22227ED500E52855 /* delegates */,
 				A57FFEFB22227E9700E52855 /* AppDelegate.swift */,
 				A57FFEFD22227E9700E52855 /* ViewController.swift */,
 				A57FFEFF22227E9700E52855 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				A57FFF0722227E9800E52855 /* Info.plist */,
 			);
 			path = "Text Field Delegates";
+			sourceTree = "<group>";
+		};
+		A57FFF0D22227ED500E52855 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				A57FFF0E22227F1D00E52855 /* FiveCharacters.swift */,
+				A57FFF1022228F2300E52855 /* TwoDecimals.swift */,
+			);
+			path = delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57FFF1122228F2300E52855 /* TwoDecimals.swift in Sources */,
 				A57FFEFE22227E9700E52855 /* ViewController.swift in Sources */,
+				A57FFF0F22227F1D00E52855 /* FiveCharacters.swift in Sources */,
 				A57FFEFC22227E9700E52855 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
